@@ -1,0 +1,36 @@
+.container {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ball {
+  width: 40px;
+  height: 40px;
+  background: crimson;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+}
+
+@keyframes animateX {
+	from {
+		left: 0;
+	}
+	to {
+		left: 100%;
+	}
+}
+@keyframes animateY {
+	from {
+		bottom: 0;
+	}
+	to {
+		bottom: 100%;
+	}
+}
+
+
+
+

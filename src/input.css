@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* ---------- COMPONENTS ---------- */
+@layer components {
+
+  .card {
+    @apply h-64 w-full flex items-center justify-center rounded-xl font-semibold text-lg;
+  }
+
+}
+
+
+/* ---------- UTILITIES ---------- */
+@layer utilities {
+
+  .bg-ocean {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+  }
+
+  .bg-sky {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+
+  .bg-aurora {
+    background: linear-gradient(to right, #00f260, #0575e6);
+  }
+
+  .bg-sunset {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+
+  .bg-fire {
+    background: linear-gradient(to right, #f12711, #f5af19);
+  }
+
+  .bg-candy {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  }
+
+  .bg-royal {
+    background: linear-gradient(to right, #141e30, #243b55);
+  }
+
+  .bg-cosmic {
+    background: linear-gradient(to right, #ff00cc, #333399);
+  }
+
+  .bg-mint {
+    background: linear-gradient(to right, #76b852, #8DC26F);
+  }
+
+  .bg-peach {
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+  }
+
+  .bg-lavender {
+    background: linear-gradient(to right, #c471f5, #fa71cd);
+  }
+}

@@ -59,4 +59,62 @@
   .bg-lavender {
     background: linear-gradient(to right, #c471f5, #fa71cd);
   }
+
+  /* DONE UNTIL LAVENDER */
+  
+  /* --- Cool Professional --- */
+  .bg-arctic {
+    background: linear-gradient(to right, #8ec5fc, #e0c3fc);
+  }
+
+  .bg-glacier {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  }
+
+  .bg-frost {
+    background: linear-gradient(to right, #cfd9df, #e2ebf0);
+  }
+  /* DONE UNTIL FROST */
+
+  /* --- Tech / SaaS Style --- */
+  .bg-circuit {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  }
+
+  .bg-terminal {
+    background: linear-gradient(to right, #141e30, #243b55, #0f2027);
+  }
+
+  .bg-digital {
+    background: linear-gradient(to right, #00c9ff, #92fe9d);
+  }
+
+
+  /* --- Premium / Luxury --- */
+  .bg-gold {
+    background: linear-gradient(to right, #d4af37, #f6e27a, #d4af37);
+  }
+
+  .bg-velvet {
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+  }
+
+  .bg-royalty {
+    background: linear-gradient(to right, #42275a, #734b6d);
+  }
+
+
+  /* --- Soft UI Friendly --- */
+  .bg-rosewater {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  }
+
+  .bg-blush {
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  }
+
+  .bg-cloud {
+    background: linear-gradient(to right, #d7d2cc, #304352);
+  }
+
 }

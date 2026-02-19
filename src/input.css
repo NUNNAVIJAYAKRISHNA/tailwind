@@ -7,7 +7,7 @@
 @layer components {
 
   .card {
-    @apply h-64 w-full flex items-center justify-center rounded-xl font-semibold text-lg;
+    @apply h-64 w-full flex items-center justify-center rounded-xl font-semibold text-lg cursor-pointer;
   }
 
 }
@@ -61,7 +61,7 @@
   }
 
   /* DONE UNTIL LAVENDER */
-  
+
   /* --- Cool Professional --- */
   .bg-arctic {
     background: linear-gradient(to right, #8ec5fc, #e0c3fc);
@@ -74,6 +74,7 @@
   .bg-frost {
     background: linear-gradient(to right, #cfd9df, #e2ebf0);
   }
+
   /* DONE UNTIL FROST */
 
   /* --- Tech / SaaS Style --- */
@@ -115,6 +116,47 @@
 
   .bg-cloud {
     background: linear-gradient(to right, #d7d2cc, #304352);
+  }
+
+  /* --- Oceanic Variants --- */
+  .bg-lagoon {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+  }
+
+  .bg-deepsea {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+  }
+
+  .bg-aquafoam {
+    background: linear-gradient(to right, #5ee7df, #b490ca);
+  }
+
+
+  /* --- Warm Elegant --- */
+  .bg-ember {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+  }
+
+  .bg-caramel {
+    background: linear-gradient(to right, #c79081, #dfa579);
+  }
+
+  .bg-amberlight {
+    background: linear-gradient(to right, #f7971e, #ffd200);
+  }
+
+
+  /* --- Modern UI Tones --- */
+  .bg-graphite {
+    background: linear-gradient(to right, #232526, #414345);
+  }
+
+  .bg-steel {
+    background: linear-gradient(to right, #485563, #29323c);
+  }
+
+  .bg-ink {
+    background: linear-gradient(to right, #141e30, #243b55, #141e30);
   }
 
 }

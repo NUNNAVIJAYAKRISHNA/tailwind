@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS - Rapidly build modern websites without ever leaving your HTML</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../src/output.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-ink text-white">
+
+  <!-- NAVBAR -->
+  <header class="bg-black">
+    <nav class="max-w-7xl flex items-center justify-between px-6 py-3">
+
+      <!-- Left -->
+      <div class="flex items-center gap-3">
+        <img src="icon.svg" class="h-10" alt="logo">
+        <span class="font-bold text-xl">tailwindcss</span>
+        <span class="bg-gray-600 text-sm px-3 py-1 rounded-full">v4.2</span>
+      </div>
+
+      <!-- Right -->
+      <ul class="hidden md:flex items-center gap-6 text-sm lg:justify-end">
+        <li class="hover:text-gray-300 cursor-pointer">Docs</li>
+        <li class="hover:text-gray-300 cursor-pointer">Blog</li>
+        <li class="hover:text-gray-300 cursor-pointer">Showcase</li>
+        <li class="hover:text-gray-300 cursor-pointer">Sponsor</li>
+        <li class="hover:text-gray-300 cursor-pointer">Plus</li>
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="max-w-7xl mx-auto px-6 py-20">
+    <h1 class="font-semibold leading-tight
+               text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+      Rapidly build websites without ever leaving your HTML
+    </h1>
+  </section>
+
+</body>
+
+</html>

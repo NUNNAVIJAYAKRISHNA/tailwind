@@ -242,4 +242,39 @@
     background: linear-gradient(to right, #00f5a0, #00d9f5);
   }
 
+  /* Mystic */
+  .bg-ethereal {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+
+  /* Deep Space */
+  .bg-singularity {
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+  }
+
+  /* Nature */
+  .bg-forestmist {
+    background: linear-gradient(to right, #5a3f37, #2c7744);
+  }
+
+  /* Premium Cool */
+  .bg-platinum {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  }
+
+  /* Soft Modern */
+  .bg-hush {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+  }
+
+  /* Electric */
+  .bg-voltage {
+    background: linear-gradient(to right, #00ff87, #60efff);
+  }
+
+  /* Warm Depth */
+  .bg-sundrift {
+    background: linear-gradient(to right, #ee9ca7, #ffdde1, #ee9ca7);
+  }
+
 }

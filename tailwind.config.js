@@ -11,6 +11,14 @@ module.exports = {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in forwards',
+      },
+
+      colors: {
+        bg: "var(--color-bg)",
+        surface: "var(--color-surface)",
+        border: "var(--color-border)",
+        text_color: "var(--color-text)",
+        muted: "var(--color-text-muted)"
       }
     },
   },

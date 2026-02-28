@@ -277,4 +277,12 @@
     background: linear-gradient(to right, #ee9ca7, #ffdde1, #ee9ca7);
   }
 
+  :root {
+    --color-bg: #0f172a;
+    --color-surface: #111827;
+    --color-border: #1f2937;
+    --color-text: #e5e7eb;
+    --color-text-muted: #9ca3af;
+  }
+
 }
